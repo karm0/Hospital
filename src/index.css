@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto:wght@300;500&display=swap');body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Fuggles', cursive;
+font-family: 'Roboto', sans-serif !important;
+}
+body{
+    overflow-x: hidden;
+}
+.text{
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.moveImg{
+    animation: move 3s infinite alternate;
+    transition: .3s ease all;
+}
+@keyframes move {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}
+.square{
+    animation: move2 3s infinite alternate;
+    transition: .3s ease all;
+}
+
+@keyframes move2 {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-30px, 30px);
+    }
+}
+
+li{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+
+
+.plusRotate{
+    animation: rotatePlus 5s infinite alternate;
+    transition: 1s ease all;
+}
+@keyframes rotatePlus{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.top{
+    transform: translateY(-25px);
+}
+
+.change{
+    transition: .8s ease all;
+}
+.change:hover{
+    background: #f17732 !important;
+}
+.change h5,p{
+    transition: .8  s ease all;
+}
+.change:hover h5{
+    color: #fff !important;
+}
+.change:hover p{
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cards{
+    min-width: 320px;
+    border-radius: 20px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog18.png?alt=media&token=7321d7cf-a041-45b0-ba34-d18938026033);
+    transition: .7s all ease;
+    box-shadow: 10px 1px 10px 1px #e1e1e1;
+    padding: 10px;
+  }
+  .cards:hover{
+    color: #fff;
+    background: #565acf;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog18.png?alt=media&token=7321d7cf-a041-45b0-ba34-d18938026033);
+  }
+  .moveImgX{
+    animation: moveX 3s infinite alternate;
+    transition: .3s ease all;
+}
+@keyframes moveX {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-30px);
+    }
+}
+
+
+
+
+.bg-4{
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog22.png?alt=media&token=7b952610-484c-463b-a754-a5f273f1b23a);
+}
+
+  .bg-6{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog20.png?alt=media&token=a54bce94-6d44-414a-bbd6-41db3a04bf85);
+  }
+
+  .bg-7{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog21.jpg?alt=media&token=d7ee4d5a-7358-4b3c-a1da-76315caaa257);
+  }
+
+
+
+
+
+  .our-team-slider{
+    min-width: 300px;
+    max-width: 480px;
+    box-shadow: 2px 5px 10px 1px #cccbcb;
+    border-radius: 10px;
+  }
+
+.container-1::after{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog24.png?alt=media&token=91cf4d34-00ce-4aae-8b87-0a7581f90c25);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -35%;
+    width: 100%;
+    z-index: -1;
+    background-color: #f7f7ff;
+}
+
+
+  .footer{
+    padding-top: 8rem;
+  }
+  .footer-banner::after{
+     background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog23.png?alt=media&token=27bed868-1256-4439-9161-284ff523d717);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -13%;
+    width: 100%;
+    z-index: -1;
+  }
+
+
+
+  .out-tem{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog21.jpg?alt=media&token=d7ee4d5a-7358-4b3c-a1da-76315caaa257);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .card-team{
+    transition: .8s all ease;
+  }
+  .card-team:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px 1px #a4a3a3;
+  }
+
+
+  .gif{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog28.gif?alt=media&token=82077bba-bcb5-4d75-b12d-620993e8e9bf);
+    background-size: 100%;
+    display: inline-block;
+    height: 135px;
+    margin: 0 10px;
+    width: 135px;
+  }
+
+  .logo{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog1.png?alt=media&token=7c4cd48b-8c13-44e3-a171-ce5b0b7ea895);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+  }
+
+.bg-8{
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/hospital-2eaf1.appspot.com/o/blog30.jpg?alt=media&token=f919c6d3-4878-4b1f-8afe-ded180939fa1);
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30rem;
+}
+
+.bg-8::before{
+  content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #565acf;
+    opacity: .9;
+}
